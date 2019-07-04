@@ -1,0 +1,57 @@
+[
+	{
+		"name": "Thunderstorm",
+		"uaName": "Гроза",
+		"img": "thunderstorm.jpg"
+	},
+	{
+		"name": "Drizzle",
+		"uaName": "Мряка",
+		"img": "snow.jpg"
+	},
+	{
+		"name": "Rain",
+		"uaName": "Дощ",
+		"img": "rain.jpg"
+	},
+	{
+		"name": "Snow",
+		"uaName": "Сніг",
+		"img": "snow.jpg"
+	},
+	{
+		"name": "Clear",
+		"uaName": "Чисто",
+		"img": "clear.jpg"
+	},
+	{
+		"name": "Clouds",
+		"uaName": "Хмари",
+		"img": "clouds.jpg"
+	},
+	{
+		"name": "Mist",
+		"uaName": "Туман",
+		"img": "fog.jpg"
+	},
+	{
+		"name": "Haze",
+		"uaName": "Туман",
+		"img": "fog.jpg"
+	},
+	{
+		"name": "Fog",
+		"uaName": "Туман",
+		"img": "fog.jpg"
+	},
+	{
+		"name": "Smoke",
+		"uaName": "Дим",
+		"img": "fog.jpg"
+	},
+	{
+		"name": "Dust",
+		"uaName": "Пил",
+		"img": "dust.jpg"
+	}
+]

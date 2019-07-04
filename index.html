@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+
+	<title>uaweather</title>
+	<meta name="author" content="https://github.com/Kybbot">
+	<meta name="description" content="Сайт на котором можно узнать погоду в Украине.">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+
+	<meta name="theme-color" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body style="background-image: url('img/clear.jpg')">
+
+	<header>
+		<div class="logo">
+			<i class="fas fa-cloud"></i>uaweather
+		</div>
+		<form action="">
+			<div class="box">
+				<select id="cityList">
+					<option value="Kyiv">Київ</option>
+					<option value="Dnipropetrovsk">Дніпро</option>
+					<option value="Kharkiv">Харків</option>
+					<option value="Odesa">Одеса</option>
+					<option value="Zaporizhzhia">Запоріжжя</option>
+					<option value="Lviv">Львів</option>
+					<option value="Donetsk">Донецьк</option>
+					<option value="Luhansk">Луганськ</option>
+					<option value="Kherson">Херсон</option>
+					<option value="Mykolaiv">Миколаїв</option>
+				</select>
+			</div>		
+		</form>
+	</header>
+
+	<section class="date-city"> 
+			<div class="date" id="date"></div>
+			<div class="city-name" id="cityName"></div>
+	</section>
+
+	<main>
+		<div class="main-bg"></div>
+		
+		<div class="main-info">
+			<div class="temp">
+				<div id="temp" class="current-temp"></div>
+				<div class="max-min-temp">
+					<div id="minTemp" class="min-temp"></div>
+					<div id="maxTemp" class="min-temp"></div>
+				</div>			
+			</div>
+			<div  class="weather"> <div id="weather" class="weather-info"></div> <div id="weatherDescription" class="weatherDescription"></div> </div>
+			<div class="wind"> <i class="fas fa-wind"></i> Вітер <br> <span id="wind" class="wind-info"></span> </div>
+			<div class="humidity"> <i class="fas fa-tint"></i> Вологість <br> <span id="humidity" class="humidity-info"></span> </div>
+			<div class="visibility"> <i class="fas fa-eye"></i> Видимість <br> <span id="visibility" class="visibility-info"></span> </div>
+			<div class="cloudiness"> <i class="fas fa-cloud"></i> Хмарність <br> <span id="cloudiness" class="cloudiness-info"></span> </div>
+		</div>
+		
+	</main>
+
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
