@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 	function getWeather(city) {
 		$.get(
-			'http://api.openweathermap.org/data/2.5/weather',
+			'https://api.openweathermap.org/data/2.5/weather',
 			{
 				'q' : city,
 				'lang' : 'ua',
