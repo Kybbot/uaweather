@@ -13,9 +13,10 @@
 
 	<link rel="icon" href="img/favicon/favicon.ico">
 
-	<meta name="theme-color" content="#000">
+	<meta name="theme-color" content="#ffffff">
 
-	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/main.css">
 
 </head>
 
@@ -23,34 +24,30 @@
 
 	<header>
 		<div class="logo">
-			<i class="fas fa-cloud"></i>uaweather
+			<i class="fas fa-cloud"></i> uaweather
 		</div>
-		<form action="">
-			<div class="box">
-				<select id="cityList">
-					<option value="Kyiv">Київ</option>
-					<option value="Dnipro">Дніпро</option>
-					<option value="Kharkiv">Харків</option>
-					<option value="Odesa">Одеса</option>
-					<option value="Zaporizhia">Запоріжжя</option>
-					<option value="Lviv">Львів</option>
-					<option value="Donetsk">Донецьк</option>
-					<option value="Luhansk">Луганськ</option>
-					<option value="Kherson">Херсон</option>
-					<option value="Mykolayiv">Миколаїв</option>
-				</select>
-			</div>		
+		<form>
+			<select id="cityList">
+				<option value="Kyiv">Київ</option>
+				<option value="Dnipro">Дніпро</option>
+				<option value="Kharkiv">Харків</option>
+				<option value="Odesa">Одеса</option>
+				<option value="Zaporizhia">Запоріжжя</option>
+				<option value="Lviv">Львів</option>
+				<option value="Donetsk">Донецьк</option>
+				<option value="Luhansk">Луганськ</option>
+				<option value="Kherson">Херсон</option>
+				<option value="Mykolayiv">Миколаїв</option>
+			</select>
 		</form>
 	</header>
 
 	<section class="date-city"> 
-			<div class="date" id="date"></div>
-			<div class="city-name" id="cityName"></div>
+		<div class="date" id="date"></div>
+		<div class="city-name" id="cityName"></div>
 	</section>
 
-	<main>
-		<div class="main-bg"></div>
-		
+	<main class="main">
 		<div class="main-info">
 			<div class="temp">
 				<div id="temp" class="current-temp"></div>
@@ -65,9 +62,8 @@
 			<div class="visibility"> <i class="fas fa-eye"></i> Видимість <br> <span id="visibility" class="visibility-info"></span> </div>
 			<div class="cloudiness"> <i class="fas fa-cloud"></i> Хмарність <br> <span id="cloudiness" class="cloudiness-info"></span> </div>
 		</div>
-		
 	</main>
 
-	<script src="js/scripts.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
